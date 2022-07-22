@@ -27,9 +27,9 @@ Even though I chose GitHub to illustrate some steps, the fundamentals should be 
 	- *id_ecdsa.pub*
 	- *id_ed25519.pub*
 
-	> **Note**: If the `~/.ssh` directory doesn't exist, then you don't have any existing SSH key pair.
-
 	Go to step two [Generate new SSH key](#generate-new-ssh-key) if you don't have a key; otherwise, go to step three [Add new SSH key](#add-new-ssh-key).
+
+	> **Note**: If the `~/.ssh` directory doesn't exist, then you don't have any existing SSH key pair.
 
 2. ##### Generate new SSH key
 
@@ -44,9 +44,9 @@ Even though I chose GitHub to illustrate some steps, the fundamentals should be 
 	- `-C`  Optional comment. The email doesn't have to be a "real email"; it's mainly added as a source of information in case you have multiple keys for different GitHub or Bitbucket accounts.
 	- `-f` Specifies the key filename.
 
-	> **Note**:  The ssh-keygen command creates the `~/.ssh` directory if it doesn't exist yet, but only if you use the default location.
-
 	You will be asked to enter a passphrase when generating the SSH key pair. The passphrase is an authentication layer that protects access to the private part of your key pair in case someone steals them from you. It's possible to leave the passphrase empty, but no authentication is required when using your SSH key.
+
+	> **Note**:  The ssh-keygen command creates the `~/.ssh` directory if it doesn't exist yet, but only if you use the default location.
 
 3. ##### Add new SSH key
 
@@ -57,8 +57,6 @@ Even though I chose GitHub to illustrate some steps, the fundamentals should be 
 	```bash
 	cat ~/.ssh/id_ed25519_gitpersonal.pub
 	```
-
-	> **Note**: Alternatively, you can locate the hidden folder `~/.ssh` open the key file with your favorite text editor and copy its content.
 
 	In GitHub, go to **Setting > SSH and GPG keys**, and follow the below steps.
 	
