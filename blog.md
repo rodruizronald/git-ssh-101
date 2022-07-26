@@ -3,7 +3,7 @@ title: SSH 101 for Git users
 domain: rodruizronald.hashnode.dev
 tags: ssh, git, github, bitbucket
 slug: git-ssh-101
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1658838378323/OxO9OuLWn.jpg?auto=compress
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1658846971216/--ElfsxEi.jpg?auto=compress
 ---
 
 Are you tired of typing your credentials when using HTTPS? The SSH protocol allows you to connect and authenticate to remote Git repositories without providing your credentials each time.
