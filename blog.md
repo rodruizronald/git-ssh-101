@@ -135,10 +135,7 @@ As the previous section shows, connecting to GitHub for the first time requires 
 
 The `known_hosts` file is in the hidden directory `~/.ssh`. Its content is hashed by default as specified in the system-wide configuration file. Hashed hostnames start with a '|' character, and only one hashed hostname can appear on a single line.
 
-The format for most public key types is:
-
-| *hostname* | *key-type* | *public-key* |
-| ---------- | ---------- | ------------ |
+Most public key files are structured as follows: *hostname* *key-type* *public-key*.
 
 Below you can see the two entries added to my `known_hosts` file after connecting to GitHub for the first time. One hostname per line. The hostnames are provided in the warning messages `github.com` and `140.82.121.4`.The *key-type* and *public-key* are the same since it's the same host.
 
